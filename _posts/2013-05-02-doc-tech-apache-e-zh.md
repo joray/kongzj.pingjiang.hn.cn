@@ -61,17 +61,10 @@ Windows Apache 及 PHP 运行环境
 	
 	DocumentRoot "d:/webservice/app"
 	
-	<Directory "d:/webservice/app">  
-	</Directory>	
-	<Directory />
-		Options FollowSymLinks
-		AllowOverride All
-		Order deny,allow
-		allow from all
-	</Directory>
+
 	
 	<IfModule dir_module>
-    DirectoryIndex index.html index.php
+	DirectoryIndex index.html index.php
 	</IfModule>
 	
 	
