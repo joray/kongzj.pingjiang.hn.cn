@@ -8,7 +8,7 @@ tags : [SQL2012, SQL]
 {% include JB/setup %}
 
 
-##SQL常用命令1:
+####SQL常用命令1:
 1.SELECT
 
 2.INSERT
@@ -18,7 +18,7 @@ tags : [SQL2012, SQL]
 4.DELETE
 
 
-##SQL常用命令2:
+####SQL常用命令2:
 
 1.CREATE
 
@@ -26,16 +26,16 @@ tags : [SQL2012, SQL]
 
 
 
-###相关示例
+####相关示例
 	SELECT
 
 	SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
 	SELECT * FROM Sales.Customer;
   
 
-##相关语法
+####相关语法
 
-###SQL语法1:
+####SQL语法1:
 
 1.FROM 
 
