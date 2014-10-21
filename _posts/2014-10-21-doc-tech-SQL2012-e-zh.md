@@ -21,16 +21,13 @@ tags : [SQL2012, SQL]
 4.  
 
 ###相关示例
-SELECT
-  
-  SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
-  
-  SELECT * FROM Sales.Customer;
+	SELECT
+	  
+	  SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
+	  
+	  SELECT * FROM Sales.Customer;
   
 
-	
-	php-5.5.17-Win32-VC9-x86.zip (VC9 x86 Thread Safe ) => http://windows.php.net/download/
-	mysql-5.6.16-win32.msi => http://www.mysql.com/downloads/mysql/
 
 
 1、先决条件：
