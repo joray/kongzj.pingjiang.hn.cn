@@ -18,6 +18,14 @@ tags : [SQL2012, SQL]
 4.DELETE
 
 
+##相关示例
+
+	SELECT
+
+	SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
+	SELECT * FROM Sales.Customer;
+
+
 ####SQL常用命令2:
 
 1.CREATE
@@ -26,14 +34,6 @@ tags : [SQL2012, SQL]
 
 
 
-####相关示例
-	SELECT
-
-	SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
-	SELECT * FROM Sales.Customer;
-  
-
-####相关语法
 
 ####SQL语法1:
 
