@@ -9,15 +9,23 @@ tags : [SQL2012, SQL]
 
 
 ###SQL常用命令1:
-1.SELECT 
-2.INSERT 
+1.SELECT
+
+2.INSERT
+
 3.UPDATE
+
 4.DELETE
 
+
 ###SQL常用命令2:
+
 1.CREATE
+
 2.DROP
+
 3.  
+
 4.  
 
 ###相关示例
@@ -30,6 +38,10 @@ tags : [SQL2012, SQL]
 ###相关语法
 
 ###SQL语法1:
+
 1.FROM 
+
 2.ORDER BY
+
 3.GROUP BY
+
