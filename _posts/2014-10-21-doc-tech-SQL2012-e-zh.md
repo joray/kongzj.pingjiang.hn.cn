@@ -22,7 +22,7 @@ tags : [SQL2012, SQL]
 
 	SELECT
 
-	SELECT * FROM Datebase.Tables;     //  SELECT 表 FROM 数据库.表;
+	SELECT * FROM Datebase.Tables;     //  SELECT 列 FROM 数据库.表;
 	SELECT * FROM Sales.Customer;
 
 
