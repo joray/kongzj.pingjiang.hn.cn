@@ -24,9 +24,7 @@ tags : [SQL2012, SQL]
 
 2.DROP
 
-3.  
 
-4.  
 
 ###相关示例
 	SELECT
