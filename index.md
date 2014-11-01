@@ -7,14 +7,16 @@ tagline: "回忆让人陷入沉思"
 
 # 我的博客
 
-记得写一些日志
+记着走过的路，想着要走的路...
 
 ![路](http://cdn4.recollect.com/splash/homepage-image-background.jpg "路很长，如何走好")
 
 
 
 ## 网址
-1.请看:[http://joray.github.com](http://joray.github.com)
+
+1.请看:[http://founder.imreser.com](http://founder.imreser.com)
+
 2.管理:[http://github.com/joray](http://github.com/joray)
 
 
