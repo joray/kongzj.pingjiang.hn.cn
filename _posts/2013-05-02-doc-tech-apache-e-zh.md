@@ -48,8 +48,8 @@ Windows Apache 及 PHP 运行环境
 	c:\windows>cd c:\apache24\bin
 	c:\apache24\bin>
 	
-	httpd.exe -k install -n "Apache2.4"   or     	httpd.exe -k install
-	httpd.exe -k uninstall -n "Apache2.4"   or     	httpd.exe -k uninstall
+	httpd.exe -k install -n "Apache2.4" 
+	httpd.exe -k uninstall -n "Apache2.4" 
 	
 	/********* httpd.conf ******/
 	
@@ -84,19 +84,24 @@ Windows Apache 及 PHP 运行环境
 	AddType application/x-httpd-php .php .phtml
 	PHPIniDir "C:/php"
 
+4、PHP设置：
 
-4、执行程序ApacheMonitor.exe：
+	; On windows:
+	extension_dir = "ext"
+
+
+5、执行程序ApacheMonitor.exe：
 	C:\Apache24\bin\ApacheMonitor.exe
 
-5、ApacheMonitor.exe程序创建快捷方式，放到开始菜单的启动文件夹开机即可以监视Apache运行
+6、ApacheMonitor.exe程序创建快捷方式，放到开始菜单的启动文件夹开机即可以监视Apache运行
 
-6、D:\webservice\app 文件目录为网站根目录
+7、D:\webservice\app 文件目录为网站根目录
 
-7、编辑：C:\WINDOWS\system32\drivers\etc\hosts
+8、编辑：C:\WINDOWS\system32\drivers\etc\hosts
 	加入一行：
 	127.0.0.1       www.example.com
 	
-8、编辑：C:\Apache24\conf\extra\httpd-vhosts.conf
+9、编辑：C:\Apache24\conf\extra\httpd-vhosts.conf
 	加上一个虚拟网站：
 
 
