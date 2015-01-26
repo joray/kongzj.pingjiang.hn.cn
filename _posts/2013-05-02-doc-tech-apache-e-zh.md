@@ -104,6 +104,45 @@ Windows Apache 及 PHP 运行环境
 9、编辑：C:\Apache24\conf\extra\httpd-vhosts.conf
 	加上一个虚拟网站：
 
+****常见问题
 
+	/*******PHP.INI*******/
+	
+	; On windows:
+	extension_dir = "ext"
 
+	导入数据超时，设置以下两个值
+	max_execution_time = 3000
+	max_input_time = 3600
+
+	memory_limit = 512M
+	upload_max_filesize = 200M
+	max_file_uploads = 200
+	
+	extension=php_bz2.dll
+	extension=php_curl.dll
+	extension=php_fileinfo.dll
+	extension=php_gd2.dll
+	extension=php_gettext.dll
+	;extension=php_gmp.dll
+	extension=php_intl.dll
+	extension=php_imap.dll
+	extension=php_interbase.dll
+	;extension=php_ldap.dll
+	extension=php_mbstring.dll
+	extension=php_exif.dll      ; Must be after mbstring as it depends on it
+	extension=php_mysql.dll
+	extension=php_mysqli.dll
+	;extension=php_oci8.dll      ; Use with Oracle 10gR2 Instant Client
+	;extension=php_oci8_11g.dll  ; Use with Oracle 11gR2 Instant Client
+	;extension=php_openssl.dll
+	;extension=php_pdo_firebird.dll
+	extension=php_pdo_mysql.dll
+	;extension=php_pdo_oci.dll
+	extension=php_pdo_odbc.dll
+	extension=php_pdo_pgsql.dll
+	extension=php_pdo_sqlite.dll
+	extension=php_pgsql.dll
+	;extension=php_pspell.dll
+	;extension=php_shmop.dll
 
