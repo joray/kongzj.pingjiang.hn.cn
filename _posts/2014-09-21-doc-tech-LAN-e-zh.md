@@ -1,3 +1,12 @@
+---
+layout: post
+category : 路由
+title: 路由
+tagline: ""
+tags : [路由]
+---
+{% include JB/setup %}  
+  
   
   ***
   Router 2.1/2.2/2.3/2.5
