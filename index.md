@@ -8,6 +8,7 @@ tagline: "回忆让人陷入沉思"
 # 我的博客
 
 记着走过的路，想着要走的路...
+写在gitcafe,同步到github
 
 ![路](http://cdn4.recollect.com/splash/homepage-image-background.jpg "路很长，如何走好")
 
