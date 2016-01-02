@@ -8,7 +8,6 @@ tags : [apache]
 {% include JB/setup %}
 
 
-Ubuntu apache2.4 建立多虚拟站点
 
 1、var/www/html 复制一份为 var/www/pingjianghncn
 
