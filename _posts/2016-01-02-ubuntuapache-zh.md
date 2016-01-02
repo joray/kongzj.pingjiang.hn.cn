@@ -14,7 +14,8 @@ Ubuntu apache2.4 建立多虚拟站点
 
 2、/etc/apache2/sites-available/000-default.conf 复制一份为 /etc/apache2/sites-available/pingjianghncn.conf
 
-----------/etc/apache2/sites-available/pingjianghncn.conf---------------------------
+----------/etc/apache2/sites-available/pingjianghncn.conf-----
+
 		<VirtualHost *:80>
 			# The ServerName directive sets the request scheme, hostname and port that
 			# the server uses to identify itself. This is used when creating
@@ -51,8 +52,9 @@ Ubuntu apache2.4 建立多虚拟站点
 			# after it has been globally disabled with "a2disconf".
 			#Include conf-available/serve-cgi-bin.conf
 		</VirtualHost>
+		
 
-------------------/etc/apache2/sites-available/pingjianghncn.conf--------------------
+------------------/etc/apache2/sites-available/pingjianghncn.conf----
 
 3、运行命令：
 sudo a2ensite pingjianghncn
