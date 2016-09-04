@@ -11,45 +11,45 @@ tags : [utuntu, linux, lnmp]
 
 
 ***
-sudo apt-get install nginx
-
-sudo apt-get install python-pip
-sudo apt-get install python3-pip
-sudo apt-get install python-dev
-pip install django==1.10
-pip install --upgrade pip
-
-sudo pip install uwsgi
+	sudo apt-get install nginx
+	
+	sudo apt-get install python-pip
+	sudo apt-get install python3-pip
+	sudo apt-get install python-dev
+	pip install django==1.10
+	pip install --upgrade pip
+	
+	sudo pip install uwsgi
 ***
 
 
 ***
-sudo apt install php
-
-sudo apt install postgresql
-
-ALTER USER postgres with encrypted password 'kong.999';
-***
-
-sudo apt-get install mysql-server 
-
-kong.999
-
-sudo apt-get install mysql-client
-sudo apt-get install libmysqlclient-dev
+	sudo apt install php
+	
+	sudo apt install postgresql
+	
+	ALTER USER postgres with encrypted password 'kong.999';
 ***
 ***
-sudo systemctl restart nginx
-
-sudo restart nginx
-
-
-sudo gedit /etc/nginx/sites-available/imreser
-
-sudo ln -s /etc/nginx/sites-available/imreser /etc/nginx/sites-enabled
-
-
-sudo mkdir /var/www/imreser.com
+	sudo apt-get install mysql-server 
+	
+	kong.999
+	
+	sudo apt-get install mysql-client
+	sudo apt-get install libmysqlclient-dev
+***
+***
+	sudo systemctl restart nginx
+	
+	sudo restart nginx
+	
+	
+	sudo gedit /etc/nginx/sites-available/imreser
+	
+	sudo ln -s /etc/nginx/sites-available/imreser /etc/nginx/sites-enabled
+	
+	
+	sudo mkdir /var/www/imreser.com
 ***
 
 
