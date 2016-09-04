@@ -55,12 +55,11 @@ tags : [utuntu, linux, lnmp]
 	
 	
 	sudo mkdir /var/www/imreser.com
+
+
 ***
 
-
-#######sudo gedit /etc/nginx/sites-available/imreser
-
-
+	/***sudo gedit /etc/nginx/sites-available/imreser
 
 	server {
 		listen 8080;
