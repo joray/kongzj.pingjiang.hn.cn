@@ -1,4 +1,13 @@
- 
+ ---
+layout: post
+category : utuntu
+title: utuntu lnmp install
+tagline: ""
+tags : [utuntu,linux,lnmp]
+---
+{% include JB/setup %}
+
+
 sudo apt-get install nginx
 
 sudo apt-get install python-pip
