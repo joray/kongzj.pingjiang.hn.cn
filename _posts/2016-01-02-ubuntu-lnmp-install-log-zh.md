@@ -11,6 +11,7 @@ tags : [utuntu, linux, lnmp]
 
 
 ***
+
 	sudo apt-get install nginx
 	
 	sudo apt-get install python-pip
@@ -20,25 +21,29 @@ tags : [utuntu, linux, lnmp]
 	pip install --upgrade pip
 	
 	sudo pip install uwsgi
-***
 
 
+
 ***
+
 	sudo apt install php
 	
 	sudo apt install postgresql
 	
 	ALTER USER postgres with encrypted password 'kong.999';
+
+
 ***
-***
+
 	sudo apt-get install mysql-server 
 	
 	kong.999
 	
 	sudo apt-get install mysql-client
 	sudo apt-get install libmysqlclient-dev
+
 ***
-***
+
 	sudo systemctl restart nginx
 	
 	sudo restart nginx
@@ -53,8 +58,6 @@ tags : [utuntu, linux, lnmp]
 ***
 
 
-
-########
 #######sudo gedit /etc/nginx/sites-available/imreser
 
 
