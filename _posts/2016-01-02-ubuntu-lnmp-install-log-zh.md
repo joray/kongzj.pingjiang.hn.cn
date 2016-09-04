@@ -57,7 +57,9 @@ tags : [utuntu, linux, lnmp]
 
 ########################################################
 #######sudo gedit /etc/nginx/sites-available/imreser
-#############################################################
+
+
+
 	server {
 		listen 8080;
 		listen [::]:8080;
