@@ -45,7 +45,7 @@ tags : [utuntu, linux, lnmp]
 	
 ***
 
-	/***sudo gedit /etc/nginx/sites-available/imreser
+	********sudo gedit /etc/nginx/sites-available/imreser
 
 	server {
 		listen 8080;
