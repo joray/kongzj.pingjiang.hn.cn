@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 category : utuntu
 title: utuntu lnmp install
