@@ -12,16 +12,19 @@ tags : [name]
 
 ***
 
-	sudo apt-get install nginx
-	
-	sudo apt-get install python-pip
-	sudo apt-get install python3-pip
-	sudo apt-get install python-dev
-	
-	pip install django==1.10
-	pip install --upgrade pip
-	
-	sudo pip install uwsgi
+优想
+飞越
+安瑞
+爱悦
+正华
+华悦
+
+网络科技有限公司
+计算机科技有限公司
+计算机技术有限公司
+信息技术有限公司
+电脑科技有限公司
+科技有限公司
 
 ***
 
