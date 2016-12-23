@@ -2,9 +2,10 @@
 
 记得写一些日志
 
-## 网址
+## 访问
+请看: <http://kzj.pingjiang.hn.cn>
+Q：13637815 T:1361161787
 
-请看: <http://joray.github.com>
 
 ## 内容
 
