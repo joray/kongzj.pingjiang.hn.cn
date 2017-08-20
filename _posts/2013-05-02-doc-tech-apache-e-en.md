@@ -1,9 +1,9 @@
 ---
 layout: post
 category : 技术
-title: install Apache2.4/PHP5.3/MySQL5 on Windows
+title: Install Apache2.4 PHP5.3 on Windows
 tagline: ""
-tags : [apache, php]
+tags : [apache]
 ---
 {% include JB/setup %}
 
