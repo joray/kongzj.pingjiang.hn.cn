@@ -1,9 +1,9 @@
 ---
 layout: post
-category : 路由
-title: 路由
+category : 网络
+title: 网络
 tagline: ""
-tags : [路由]
+tags : [网络]
 ---
 {% include JB/setup %}  
   
