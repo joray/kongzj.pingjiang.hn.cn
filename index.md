@@ -9,8 +9,6 @@ tagline: "回忆让人陷入沉思"
 
 记着走过的路，想着要走的路...
 
-![路](http://cdn4.recollect.com/splash/homepage-image-background.jpg "路很长，如何走好")
-
 
 
 ## 访问
