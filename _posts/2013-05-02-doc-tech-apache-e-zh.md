@@ -9,14 +9,16 @@ tags : [apache, php]
 
 
 ###在WINXP:
-1. IIS6/TS/ISAP/VC9
-2. IIS6/NTS/FastCGI/VC9
-3. Apache/NTS/FastCGI/VC9
-4. Apache/TS/Apache module/VC6
+
+	a IIS6/TS/ISAP/VC9
+	b IIS6/NTS/FastCGI/VC9
+	c Apache/NTS/FastCGI/VC9
+	d Apache/TS/Apache module/VC6
 
 ###在WIN7下：
-1. IIS7/NTS/FastCGI/VC9
-2. Apache/TS/FastCGI/VC9
+
+	a IIS7/NTS/FastCGI/VC9
+	b Apache/TS/FastCGI/VC9
 
 
 
@@ -43,6 +45,7 @@ Windows Apache 及 PHP 运行环境
 注意：Apache.org上的版本为VC6，下载VC9/VC10/VC11的请在http://www.apachelounge.com/下载
 
 3、install Apache as a server(安装Apache为一个windows的一个服务)
+
 	command line:
 
 	c:\windows>cd c:\apache24\bin
@@ -91,17 +94,23 @@ Windows Apache 及 PHP 运行环境
 
 
 5、执行程序ApacheMonitor.exe：
+
 	C:\Apache24\bin\ApacheMonitor.exe
 
 6、ApacheMonitor.exe程序创建快捷方式，放到开始菜单的启动文件夹开机即可以监视Apache运行
 
 7、D:\webservice\app 文件目录为网站根目录
 
-8、编辑：C:\WINDOWS\system32\drivers\etc\hosts
+8、编辑：
+	
+	C:\WINDOWS\system32\drivers\etc\hosts
+
 	加入一行：
 	127.0.0.1       www.example.com
 	
-9、编辑：C:\Apache24\conf\extra\httpd-vhosts.conf
+9、编辑：
+	
+	C:\Apache24\conf\extra\httpd-vhosts.conf
 	加上一个虚拟网站：
 
 ****常见问题
