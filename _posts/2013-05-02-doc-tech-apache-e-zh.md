@@ -8,21 +8,21 @@ tags : [apache, php]
 {% include JB/setup %}
 
 
-###在WINXP:
+##在WINXP:
 
 	a IIS6/TS/ISAP/VC9
 	b IIS6/NTS/FastCGI/VC9
 	c Apache/NTS/FastCGI/VC9
 	d Apache/TS/Apache module/VC6
 
-###在WIN7下：
+##在WIN7下：
 
 	a IIS7/NTS/FastCGI/VC9
 	b Apache/TS/FastCGI/VC9
 
 
 
-###相关配置
+##相关配置
 Windows Apache 及 PHP 运行环境
 
 	httpd-2.4.10-win32.zip => http://www.apachelounge.com/download/
