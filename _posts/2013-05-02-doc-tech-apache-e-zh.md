@@ -113,7 +113,7 @@ Windows Apache 及 PHP 运行环境
 	C:\Apache24\conf\extra\httpd-vhosts.conf
 	加上一个虚拟网站：
 
-****常见问题
+**** 常见问题
 
 	/*******PHP.INI*******/
 	
