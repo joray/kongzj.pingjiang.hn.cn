@@ -21,7 +21,7 @@ __The most recent editions available today are__
 	mysql-5.5.24-win32.msi => http://www.mysql.com/downloads/mysql/
 
 
-###Install Apache 2.4 on Windows
+### Install Apache 2.4 on Windows
 
 You must first install (not needed for Windows 7+) the Visual C++ 2010 Redistributable Package.
 Download and Install, if you have not installed it already,
@@ -68,7 +68,7 @@ Now run httpd.exe -k install to install Apache as a service (open a command prom
 Congratulations, you have just installed Apache onto your Windows system.
 
 
-###Install the MySQL5 database server on a Windows Computer/Server
+### Install the MySQL5 database server on a Windows Computer/Server
 
 Double click on the .msi file to start the setup programm. 
 Follow the instructions given to you by the installer and choose the "Typical" installation method when prompted. 
@@ -93,7 +93,7 @@ Once the black window, Command Prompt, is open, type "netstat -an"
 Make sure that you can find port 80 (apache) and 3306 (mysql) on the list.
 
 
-###Install PHP5 and integrate it with Apache 2.0, 2.2 or 2.4
+### Install PHP5 and integrate it with Apache 2.0, 2.2 or 2.4
 
 Extract the downloaded zip file containing PHP, rename it to PHP and move it to C:\
 
@@ -132,7 +132,7 @@ Remove the ; in front of the lines, save and close the file.
 Now it's time to configure Apache to work with PHP. 
 
 
-####Apache 2.0:
+#### Apache 2.0:
 
 Use Notepad to open the file C:\Apache2\conf\httpd.conf. Search the file for the string "LoadModule" and add these lines below.
 
@@ -142,7 +142,7 @@ Use Notepad to open the file C:\Apache2\conf\httpd.conf. Search the file for the
 	PHPIniDir "C:/php"
 
 
-####Apache 2.2:
+#### Apache 2.2:
 
 Use Notepad to open the file C:\Apache2.2\htdocs\httpd.conf. Search the file for the string "LoadModule" and add these lines below.
 
@@ -152,7 +152,7 @@ Use Notepad to open the file C:\Apache2.2\htdocs\httpd.conf. Search the file for
 	PHPIniDir "C:/php"
 
 
-####Apache 2.4:
+#### Apache 2.4:
 
 You need to download php5apache2_4.dll-php-5.3-win32.zip from Apachelounge, extract the files and copy php5apache2_4.dll into C:\PHP
 
@@ -179,7 +179,7 @@ Edit info.php and enter the code below.
 Now it's time to test the php installation. Open your web browser and navigate to http://localhost/info.php if you did everything as shown above you should see the screen below and should now be ready to install WorkOrder TS
 
 
-#####Problems:
+##### Problems:
 
 __Problem:__ You receive a PHP error message that you MySQL extension has not been found.
 
