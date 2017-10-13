@@ -8,6 +8,7 @@ tags : [Python, Scripts]
 {% include JB/setup %}
 
 
+http://www.cnblogs.com/levenyes/p/4003681.html
 
     #! /usr/bin/env python
 
@@ -48,8 +49,7 @@ tags : [Python, Scripts]
         f_date = f.readline()
         run_time = f.readline()
         run = int(run_time)
-        print(run)
-        time.sleep(2)
+        time.sleep(360)
         if run<timeLimit:
             run = run + 1
             f.truncate()
@@ -65,4 +65,5 @@ tags : [Python, Scripts]
     #关机命令       
     cmd="cmd.exe /k shutdown -s -t 0";
 
-    print(cmd)
+    #执行关机命令
+    os.system(cmd)
