@@ -10,6 +10,8 @@ tags : [Python, Scripts]
 
 http://www.cnblogs.com/levenyes/p/4003681.html
 
+
+
     #! /usr/bin/env python
 
     #coding=utf-8
@@ -67,3 +69,6 @@ http://www.cnblogs.com/levenyes/p/4003681.html
 
     #执行关机命令
     os.system(cmd)
+
+
+　周一到周五，能用电脑的时间最多只能是两个小时；而周末，则是四个小时。
