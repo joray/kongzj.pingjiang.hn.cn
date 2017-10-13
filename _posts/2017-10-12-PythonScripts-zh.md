@@ -11,6 +11,14 @@ tags : [Python, Scripts]
 http://www.cnblogs.com/levenyes/p/4003681.html
 
 
+需要特别提出的几个点
+
+第一，因为需要实现开机自启动，所以要把python文件复制到系统的“启动”文件夹里。
+
+第二，由于.py文件启动后会有控制台界面出现，非常影响使用效果，因此要把.py文件的后缀改成.pyw。
+
+第三，不需要担心如果自己想要用电脑的话会受到这个限制，只要在开机六分钟内把python进程关掉即可
+
 
     #! /usr/bin/env python
 
