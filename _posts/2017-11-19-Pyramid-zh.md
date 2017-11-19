@@ -26,3 +26,42 @@ C:\Program Files\Git\bin
     %VENV%\Scripts\pip install "pyramid==1.9.1"
     
     %VENV%\Scripts\pip install --user cookiecutter
+
+
+
+
+        D:\>cd D:\Application\blogr_tutorial
+
+        D:\Application\blogr_tutorial>cookiecutter gh:Pylons/pyramid-cookiecutter-alchemy --checkout 1.9-branch
+        You've downloaded C:\Users\Joray\.cookiecutters\pyramid-cookiecutter-alchemy before. Is it okay to delete and re-download it? [yes]: y
+        project_name [Pyramid Scaffold]: pyramid_blogr
+        repo_name [pyramid_blogr]: pyramid_blogr
+
+        ===============================================================================
+        Documentation: https://docs.pylonsproject.org/projects/pyramid/en/latest/
+        Tutorials:     https://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/
+        Twitter:       https://twitter.com/PylonsProject
+        Mailing List:  https://groups.google.com/forum/#!forum/pylons-discuss
+        Welcome to Pyramid.  Sorry for the convenience.
+        ===============================================================================
+
+        Change directory into your newly created project.
+            cd pyramid_blogr
+
+        Create a Python virtual environment.
+            py -3 -m venv env
+
+        Upgrade packaging tools.
+            env\Scripts\pip install --upgrade pip setuptools
+
+        Install the project in editable mode with its testing requirements.
+            env\Scripts\pip install -e ".[testing]"
+
+        Configure the database:
+            env\Scripts\initialize_pyramid_blogr_db development.ini
+
+        Run your project's tests.
+            env\Scripts\pytest
+
+        Run your project.
+            env\Scripts\pserve development.ini
