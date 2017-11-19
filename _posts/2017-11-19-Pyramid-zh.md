@@ -18,4 +18,5 @@ CMD.EXE
     SET VENV=D:\Application\blogr_tutorial\env
     python -m venv %VENV%
     %VENV%\Scripts\pip install "pyramid==1.9.1"
+    
     %VENV%\Scripts\pip install --user cookiecutter
