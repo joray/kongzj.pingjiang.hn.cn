@@ -20,19 +20,16 @@ D:\Program Files\Python36\Scripts\;
 D:\Program Files\Python36\;
 C:\Program Files\Git\bin
 
-    SET PATH=C:\Program Files\Python 3.6;%PATH%
-    SET VENV=D:\Application\blogr_tutorial\env
-    python -m venv %VENV%
-    %VENV%\Scripts\pip install "pyramid==1.9.1"
-    
-    %VENV%\Scripts\pip install --user cookiecutter
-
-
-
+        SET PATH=D:\Program Files\Python 3.6;%PATH%
+        SET VENV=D:\Application\blogr_tutorial\env
+        pip install "pyramid==1.9.1"
+        pip install cookiecutter
+        python -m venv %VENV%
 
         D:\>cd D:\Application\blogr_tutorial
-
         D:\Application\blogr_tutorial>cookiecutter gh:Pylons/pyramid-cookiecutter-alchemy --checkout 1.9-branch
+        
+        
         You've downloaded C:\Users\Joray\.cookiecutters\pyramid-cookiecutter-alchemy before. Is it okay to delete and re-download it? [yes]: y
         project_name [Pyramid Scaffold]: pyramid_blogr
         repo_name [pyramid_blogr]: pyramid_blogr
