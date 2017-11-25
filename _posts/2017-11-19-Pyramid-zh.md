@@ -23,30 +23,30 @@ C:\Program Files\Git\bin
 python setup.py install
 
 
-setup.py
-project
-├── models
-│   ├── __init__.py
-│   └── meta.py
-├── views
-│   ├── 
-│   └──
-├── scripts
-│   ├── 
-│   └──
-├── static
-│   ├── 
-│   └──
-├── templates
-│   ├── 
-│   └──
-├── services
-│   ├── 
-│   └──
-└──routes.py
+        setup.py
+        project
+        ├── models
+        │   ├── __init__.py
+        │   └── meta.py
+        ├── views
+        │   ├── 
+        │   └──
+        ├── scripts
+        │   ├── 
+        │   └──
+        ├── static
+        │   ├── 
+        │   └──
+        ├── templates
+        │   ├── 
+        │   └──
+        ├── services
+        │   ├── 
+        │   └──
+        └──routes.py
 
 
-
+------------
 
         SET PATH=D:\Program Files\Python 3.6;%PATH%
         SET VENV=D:\Application\blogr_tutorial\env
