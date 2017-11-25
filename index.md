@@ -14,5 +14,6 @@ tagline: "回忆让人陷入沉思"
     Q:13637815
 
  
-##关于技术
+## 关于技术
+
 [Markdown 格式](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
