@@ -10,7 +10,7 @@ tagline: "回忆让人陷入沉思"
     走过的路，要走的路...
 
 ## 访问
-    web:http://kzj.pingjiang.hn.cn
+    http://kzj.pingjiang.hn.cn
     Q:13637815
 
  
