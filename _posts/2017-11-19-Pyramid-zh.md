@@ -19,10 +19,12 @@ tags : [Python, Pyramid]
         D:\Program Files\Python36\Scripts\;
         D:\Program Files\Python36\;
         C:\Program Files\Git\bin
-        python setup.py install
+
 
 ---------------
 
+        python setup.py install
+        
         setup.py
         project
         ├── models
