@@ -10,9 +10,8 @@ tags : [Python, Pyramid]
 
 
 
-        WINDOWD 
+        WINDOWS 
         CMD.EXE
-
 
         python 路径添加环境变量
         git 路径添加环境变量
@@ -46,7 +45,6 @@ tags : [Python, Pyramid]
         │   └──
         └──routes.py
 
-
 ------------
 
         SET PATH=D:\Program Files\Python 3.6;%PATH%
@@ -54,14 +52,11 @@ tags : [Python, Pyramid]
         python -m venv %VENV%
         env\Scripts\pip install "pyramid==1.9.1"
         env\Scripts\pip install cookiecutter
-        env\Scripts\pip install passlib
-
-        
+        env\Scripts\pip install passlib        
 
         D:\>cd D:\Application\blogr_tutorial
         D:\Application\blogr_tutorial>cookiecutter gh:Pylons/pyramid-cookiecutter-alchemy --checkout 1.9-branch
-        
-        
+                
         You've downloaded C:\Users\Joray\.cookiecutters\pyramid-cookiecutter-alchemy before. Is it okay to delete and re-download it? [yes]: y
         project_name [Pyramid Scaffold]: pyramid_blogr
         repo_name [pyramid_blogr]: pyramid_blogr
