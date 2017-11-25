@@ -10,18 +10,19 @@ tags : [Python, Pyramid]
 
 
 
-WINDOWD 
-CMD.EXE
+        WINDOWD 
+        CMD.EXE
 
 
-python 路径添加环境变量
-git 路径添加环境变量
+        python 路径添加环境变量
+        git 路径添加环境变量
 
-D:\Program Files\Python36\Scripts\;
-D:\Program Files\Python36\;
-C:\Program Files\Git\bin
-python setup.py install
+        D:\Program Files\Python36\Scripts\;
+        D:\Program Files\Python36\;
+        C:\Program Files\Git\bin
+        python setup.py install
 
+---------------
 
         setup.py
         project
