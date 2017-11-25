@@ -22,9 +22,12 @@ C:\Program Files\Git\bin
 
         SET PATH=D:\Program Files\Python 3.6;%PATH%
         SET VENV=D:\Application\blogr_tutorial\env
-        pip install "pyramid==1.9.1"
-        pip install cookiecutter
         python -m venv %VENV%
+        env\Scripts\pip install "pyramid==1.9.1"
+        env\Scripts\pip install cookiecutter
+        env\Scripts\pip install passlib
+
+        
 
         D:\>cd D:\Application\blogr_tutorial
         D:\Application\blogr_tutorial>cookiecutter gh:Pylons/pyramid-cookiecutter-alchemy --checkout 1.9-branch
