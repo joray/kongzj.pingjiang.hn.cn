@@ -1,6 +1,6 @@
 ---
 layout: post
-category : 技术
+category : 生活
 title : 开始写博客，在Github
 tagline: ""
 tags : [技术]
