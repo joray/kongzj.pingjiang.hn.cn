@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Ubuntu apache2.4 虚拟站点
+category : Ubuntu,apache
 title: Ubuntu apache2.4 建立多虚拟站点
 tagline: ""
 tags : [apache]
