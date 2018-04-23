@@ -26,14 +26,18 @@ tags : [apache, php]
 Windows Apache 及 PHP 运行环境
 
 	php5
+	
 	httpd-2.4.10-win32.zip => http://www.apachelounge.com/download/
 	php-5.5.17-Win32-VC9-x86.zip (VC9 x86 Thread Safe ) => http://windows.php.net/download/
 	mysql-5.6.16-win32.msi => http://www.mysql.com/downloads/mysql/
 	
+	
 	php7
+	
 	httpd-2.4.33-win32-VC15.zip
 	Apache 2.4.33 Win32
 	https://www.apachelounge.com/download/VC15/binaries/httpd-2.4.33-Win32-VC15.zip
+	
 	php-7.2.4-Win32-VC15-x86.zip
 	VC15 x86 Thread Safe (2018-Mar-28 20:47:44)
 	https://windows.php.net/downloads/releases/php-7.2.4-Win32-VC15-x86.zip
@@ -44,9 +48,10 @@ Windows Apache 及 PHP 运行环境
 1、先决条件：
 第一次你必须安装32位 ( Windows 7+ 以上)  Visual C++ 2010 Redistributable Package.
 如果没有安装，请正载: http://www.microsoft.com/download/en/details.aspx?id=8328
-
 执行程序vcredist_x86.exe
-php7 vc15 请安装：https://aka.ms/vs/15/release/VC_redist.x64.exe https://aka.ms/vs/15/release/VC_redist.x86.exe
+
+php7 vc15 
+请安装：https://aka.ms/vs/15/release/VC_redist.x64.exe https://aka.ms/vs/15/release/VC_redist.x86.exe
 
 2、安装 Apache 2.4 
 解压缩文件Apache Zip 至 c:\apache24 (注意：不是c:\apache24\Apache24)
