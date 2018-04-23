@@ -45,7 +45,7 @@ Windows Apache 及 PHP 运行环境
 	https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.11.0.msi
 
 
-1、先决条件，安装 Visual C++：
+1、先决条件，安装“Visual C++ Redistributable”：
 
 第一次你必须安装32位 ( Windows 7+ 以上)  Visual C++ 2010 Redistributable Package.
 	
@@ -55,7 +55,12 @@ Windows Apache 及 PHP 运行环境
 
 	如果安装的是vc15版本的php7 
 	请安装：
-	https://aka.ms/vs/15/release/VC_redist.x64.exe https://aka.ms/vs/15/release/VC_redist.x86.exe
+	vc_redist_x64 
+	https://www.microsoft.com/en-us/download/details.aspx?id=48145
+	https://aka.ms/vs/15/release/VC_redist.x64.exe
+	vc_redist_x86
+	https://www.microsoft.com/en-us/download/details.aspx?id=48145
+	https://aka.ms/vs/15/release/VC_redist.x86.exe
 
 2、安装 Apache 2.4 
 
