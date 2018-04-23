@@ -47,18 +47,22 @@ Windows Apache 及 PHP 运行环境
 
 1、先决条件：
 第一次你必须安装32位 ( Windows 7+ 以上)  Visual C++ 2010 Redistributable Package.
-如果没有安装，请正载: http://www.microsoft.com/download/en/details.aspx?id=8328
-执行程序vcredist_x86.exe
+	
+	如果没有安装，请下载:
+	http://www.microsoft.com/download/en/details.aspx?id=8328
+	执行程序vcredist_x86.exe
 
-php7 vc15 
-请安装：https://aka.ms/vs/15/release/VC_redist.x64.exe https://aka.ms/vs/15/release/VC_redist.x86.exe
+	php7 vc15 
+	请安装：
+	https://aka.ms/vs/15/release/VC_redist.x64.exe https://aka.ms/vs/15/release/VC_redist.x86.exe
 
 2、安装 Apache 2.4 
-解压缩文件Apache Zip 至 c:\apache24 (注意：不是c:\apache24\Apache24)
-解压缩至新的文件夹，你将需要调整设置的选项，请不要这样，除非你知道该怎么设置这些选项 changba.comu54984936
 
-
-注意：Apache.org上的版本为VC6，下载VC9/VC10/VC11的请在http://www.apachelounge.com/下载
+	解压缩文件Apache Zip 至 c:\apache24 (注意：不是c:\apache24\Apache24)
+	
+	注意：
+	Apache.org下载VC9/VC10/VC11版本的，
+	请在http://www.apachelounge.com/下载
 
 3、install Apache as a server(安装Apache为一个windows的一个服务)
 
@@ -70,6 +74,8 @@ php7 vc15
 	httpd.exe -k install -n "Apache2.4" 
 	httpd.exe -k uninstall -n "Apache2.4" 
 	
+4、Apache 设置
+
 	/********* httpd.conf ******/
 	
 	ServerRoot "c:/Apache24"
@@ -109,19 +115,20 @@ php7 vc15
 	AddType application/x-httpd-php .php .phtml
 	PHPIniDir "C:/php"
 
-4、PHP设置：
+5、PHP设置：
 
 	; On windows:
 	extension_dir = "ext"
 
 
-5、执行程序ApacheMonitor.exe：
+6、执行程序ApacheMonitor.exe：
 
 	C:\Apache24\bin\ApacheMonitor.exe
-
-6、ApacheMonitor.exe程序创建快捷方式，放到开始菜单的启动文件夹开机即可以监视Apache运行
+	ApacheMonitor.exe程序可创建快捷方式，方便启动/停止Apache服务器
+	
 
 7、D:\webservice\app 文件目录为网站根目录
+
 
 8、编辑：
 	
@@ -135,7 +142,7 @@ php7 vc15
 	C:\Apache24\conf\extra\httpd-vhosts.conf
 	加上一个虚拟网站：
 
-**** 常见问题
+**** PHP常见设置
 
 	/*******PHP.INI*******/
 	
