@@ -11,6 +11,7 @@ tagline: "回忆让人陷入沉思"
 
 ## 访问
     http://kzj.pingjiang.hn.cn
+    https://github.com/joray/kongzj.pingjiang.hn.cn/wiki
     Q:13637815
 
  
