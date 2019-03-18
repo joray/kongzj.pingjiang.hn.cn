@@ -18,31 +18,32 @@ tags : [apache, php]
 ### 在WIN7下：
 
 	a IIS7/NTS/FastCGI/VC9
-	b Apache/TS/FastCGI/VC9
+	b Apache/TS/FastCGI/VC15
 
 
 
 ### 相关配置
 Windows Apache 及 PHP 运行环境
 
-	php5
-	
+	php5	
 	httpd-2.4.10-win32.zip => http://www.apachelounge.com/download/
 	php-5.5.17-Win32-VC9-x86.zip (VC9 x86 Thread Safe ) => http://windows.php.net/download/
-	mysql-5.6.16-win32.msi => http://www.mysql.com/downloads/mysql/
-	
-	
-	php7
-	
+		
+	php7 x86
 	httpd-2.4.33-win32-VC15.zip
 	Apache 2.4.33 Win32
 	https://www.apachelounge.com/download/VC15/binaries/httpd-2.4.33-Win32-VC15.zip
-	
 	php-7.2.4-Win32-VC15-x86.zip
 	VC15 x86 Thread Safe (2018-Mar-28 20:47:44)
 	https://windows.php.net/downloads/releases/php-7.2.4-Win32-VC15-x86.zip
 	
-	https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.11.0.msi
+	php7 x64
+	httpd-2.4.38-win64-VC15.zip
+	Apache 2.4.38 Win64
+	https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.38-win64-VC15.zip
+	php-7.3.3-Win32-VC15-x86.zip
+	VC15 x64 Thread Safe (2018-Mar-28 20:47:44)
+	https://windows.php.net/downloads/releases/php-7.3.3-Win32-VC15-x64.zip
 
 
 1、先决条件，安装“Visual C++ Redistributable”：
@@ -115,7 +116,7 @@ Windows Apache 及 PHP 运行环境
 	#AddType application/x-httpd-php .php .phtml
 	#PHPIniDir "C:/php"
 	
-	#php 7.2
+	#php 7.3
 	LoadFile "C:/php/php7ts.dll"
 	LoadModule php7_module "c:/php/php7apache2_4.dll"
 	AddType application/x-httpd-php .php .phtml
