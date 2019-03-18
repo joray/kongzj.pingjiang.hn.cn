@@ -31,18 +31,16 @@ Windows Apache 及 PHP 运行环境
 		
 	php7 x86
 	httpd-2.4.33-win32-VC15.zip
-	Apache 2.4.33 Win32
 	https://www.apachelounge.com/download/VC15/binaries/httpd-2.4.33-Win32-VC15.zip
 	php-7.2.4-Win32-VC15-x86.zip
-	VC15 x86 Thread Safe (2018-Mar-28 20:47:44)
+	VC15 x86 Thread Safe 
 	https://windows.php.net/downloads/releases/php-7.2.4-Win32-VC15-x86.zip
 	
 	php7 x64
 	httpd-2.4.38-win64-VC15.zip
-	Apache 2.4.38 Win64
 	https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.38-win64-VC15.zip
-	php-7.3.3-Win32-VC15-x86.zip
-	VC15 x64 Thread Safe (2018-Mar-28 20:47:44)
+	php-7.3.3-Win32-VC15-x64.zip
+	VC15 x64 Thread Safe 
 	https://windows.php.net/downloads/releases/php-7.3.3-Win32-VC15-x64.zip
 
 
